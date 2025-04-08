@@ -1,4 +1,4 @@
-'''
+
 x = 5 + 3 #addition
 print(x)
 
@@ -20,7 +20,7 @@ print(c)
 boy = "antimonopologeographicationalism"
 girl = boy[0:20:3] #its on the third count, the letter there that is noted
 print(girl)
-'''
+
 
 for var1 in range(3):
     print("Iteration " + str(var1 + 1) + " of outer loop")
