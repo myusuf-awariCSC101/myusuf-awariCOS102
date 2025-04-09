@@ -27,4 +27,10 @@ for var1 in range(3):
     for var2 in range(2):
         print(var2 + 1)
     print("Out of inner loop")
-print("out of outer loop")        
+print("out of outer loop")  
+
+for i in range(3):           # i = 0, 1, 2
+    for j in range(5):       # j = 0 → 4
+        if j == 2:
+            break
+        print(f"{i}-{j}")
